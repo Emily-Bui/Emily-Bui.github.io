@@ -1,3 +1,4 @@
+
 function unhideLightbox(lightboxID) {
 
 	document.getElementById(lightboxID).classList.remove('hidden');
