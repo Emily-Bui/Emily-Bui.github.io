@@ -1,6 +1,4 @@
 
-
-
 body {
 	background: #F4EBE4;
 	margin: 0;
@@ -14,6 +12,9 @@ body {
     left: 3%;
 } 
 
+span {
+	background: white !important;
+}
 
 .backpack img {
 	max-width: 350px;
@@ -42,7 +43,7 @@ body {
 
 p {
 	position: absolute;
-	top: 82%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Poppins', sans-serif;
@@ -53,13 +54,13 @@ p {
 
 .p1 {
 	position: absolute;
-	top: 245%;
+	top: 240%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 50px;
+	font-size: 52px;
 	color: white;
 }
 
