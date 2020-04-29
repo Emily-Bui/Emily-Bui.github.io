@@ -4,6 +4,25 @@ body {
 	margin: 0;
 }
 
+ .flex-init-setup {
+     display: -webkit-box;
+     display: -moz-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+ }
+ .flex-ppal-setup {
+     -webkit-flex-flow: column wrap;
+     -moz-flex-flow: column wrap;
+     flex-flow: column wrap;
+     -webkit-justify-content: center;
+     -moz-justify-content: center;
+     justify-content: center;
+ }
+
+
+
+
 .logo img {
 	max-width: 300px;
 	height: auto;
@@ -43,7 +62,7 @@ span {
 
 p {
 	position: absolute;
-	top: 80%;
+	top: 85%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Poppins', sans-serif;
@@ -69,18 +88,16 @@ p {
 	max-width: 400px;
 	height: auto;
 	position: absolute;
-    top: 160%;
-    left: 49%;
-    transform: translate(-50%, -50%);
+    top: 115%;
+    left: 35%;
 } 
 
 .backpack2 img:hover {
 	max-width: 400px;
 	height: auto;
 	position: absolute;
-    top: 116%;
+    top: 115%;
     left: 35%;
-    transform: translate(-50%, -50%);
 	animation: shake .8s infinite alternate;
 }
 
@@ -131,3 +148,19 @@ p {
     animation: shake .8s infinite alternate;
 
 }
+
+
+#popup1 img {
+	max-width: 700px;
+	height: auto;
+	position: absolute;
+    top: 120%;
+    left: 25%;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
