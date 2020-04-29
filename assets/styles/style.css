@@ -4,23 +4,6 @@ body {
 	margin: 0;
 }
 
- .flex-init-setup {
-     display: -webkit-box;
-     display: -moz-box;
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
- }
- .flex-ppal-setup {
-     -webkit-flex-flow: column wrap;
-     -moz-flex-flow: column wrap;
-     flex-flow: column wrap;
-     -webkit-justify-content: center;
-     -moz-justify-content: center;
-     justify-content: center;
- }
-
-
 
 
 .logo img {
@@ -31,9 +14,7 @@ body {
     left: 3%;
 } 
 
-span {
-	background: white !important;
-}
+
 
 .backpack img {
 	max-width: 350px;
@@ -71,7 +52,7 @@ p {
 	font-size: 18px;
 }
 
-.p1 {
+.tlt {
 	position: absolute;
 	top: 240%;
 	left: 50%;
@@ -81,6 +62,10 @@ p {
 	font-style: italic;
 	font-size: 52px;
 	color: white;
+}
+
+#fp-nav ul li a span {
+	background: white !important;
 }
 
 .backpack2 img {
@@ -151,12 +136,21 @@ p {
 
 
 #popup1 img {
-	max-width: 700px;
+	max-width: 800px;
 	height: auto;
 	position: absolute;
-    top: 120%;
-    left: 25%;
+    top: 115%;
+    left: 22.5%;
 }
+
+#popup2 img {
+	max-width: 800px;
+	height: auto;
+	position: absolute;
+    top: 115%;
+    left: 22.5%;
+}
+
 
 .hidden {
 	display: none;
