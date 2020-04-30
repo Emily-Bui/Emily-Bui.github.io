@@ -98,20 +98,20 @@ p {
 
 
 .airpod img {
-	max-width: 100px;
+	max-width: 130px;
 	height: auto;
 	position: absolute;
-    top: 170%;
-    left: 35%;
+    top: 169%;
+    left: 34%;
 
 }
 
 .airpod img:hover {
-	max-width: 100px;
+	max-width: 130px;
 	height: auto;
 	position: absolute;
-    top: 170%;
-    left: 35%;
+    top: 169%;
+    left: 34%;
     animation: shake .8s infinite alternate;
 
 }
