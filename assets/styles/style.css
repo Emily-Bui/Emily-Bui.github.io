@@ -160,11 +160,30 @@ p {
     left: 22.5%;
 }
 
+#slideshow {
+	max-width: 460px;
+	height: auto;
+	position: absolute;
+    top: 138%;
+    left: 34%;
+    display: none;
+}
 
+#slideshow img {
+	max-width: 100%;
+	height: auto;
+}
+
+.slider button{
+    display: none;
+}
 
 .hidden {
 	display: none;
 }
 
+.slick-prev {
+	display: none;
+}
 
 

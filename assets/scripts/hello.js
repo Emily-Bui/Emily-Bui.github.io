@@ -21,6 +21,10 @@ function hide_graphics(i) {
 	i.style.display = "none";
 }
 
+function show_graphics(i) {
+	i.style.display = "block"
+}
+
 airpod1.onclick = function(){
 
 	let graphics = document.getElementsByClassName("graphics2")
@@ -38,15 +42,21 @@ function hide_graphics(i) {
 }
 backpack1.onclick = function(){
 
+	let photos = document.getElementsByClassName("slick")
+	for (let i = 0; i < photos.length; i ++) {
+    	show_graphics(photos[i]); 
+	}
+	document.getElementById("slideshow").style.display = "block";
+
 	let graphics = document.getElementsByClassName("graphics2")
 	for (let i = 0; i < graphics.length; i ++) {
     	hide_graphics(graphics[i]); 
 	}
 
 	document.getElementById("popup3").style.display = "block";
+
+	
 }
-
-
 
 
 function show_graphics(i) {
@@ -64,7 +74,6 @@ popup2.onclick = function(){
 	}
 }
 
-
 function show_graphics(i) {
 	i.style.display = "block"
 }
@@ -73,12 +82,20 @@ let popup3 = document.getElementById("popup3")
 
 popup3.onclick = function(){
 	document.getElementById("popup3").style.display = "none";
+	document.getElementById("popup4").style.display = "none";
+
+	let photos = document.getElementsByClassName("slick")
+	for (let i = 0; i < photos.length; i ++) {
+    	hide_graphics(photos[i]); 
+	}
+
 
 	let graphics = document.getElementsByClassName("graphics2")
 	for (let i = 0; i < graphics.length; i ++) {
     	show_graphics(graphics[i]); 
 	}
 }
+
 
 
 
@@ -97,5 +114,6 @@ popup1.onclick = function(){
     	show_graphics(graphics[i]); 
 	}
 }
+
 
 

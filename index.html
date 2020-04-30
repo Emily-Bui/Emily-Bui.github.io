@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="fullpage.css" />
 </head>
@@ -10,7 +11,7 @@
 
 <div id="fullpage">
 	<div class="section"></div>
-		<p> ClICK TO FIND OUT! </p>
+		<p> SCROLL DOWN TO FIND OUT! </p>
 		<div class="graphics">
 		<div class="logo"><img src="assets/img/logo.png"></div>
 		<div class="backpack" id="backpack"> <img src="assets/img/home-backpack.png"></div>
@@ -29,12 +30,26 @@
 				<img src="assets/img/pop-up2.png"></div>
 		<div class="lightbox hidden" id=popup3>
 				<img src="assets/img/pop-up3.png"></div>
+		<div class="lightbox hidden" id=popup4>
+				<img src="assets/img/pop-up3.png"></div>
+			<div id="slideshow">
+					<div class="slick">
+						<div><img src="assets/img/img1.png"></div>
+						<div><img src="assets/img/img2.png"></div>
+						<div><img src="assets/img/img3.png"></div>
+						<div><img src="assets/img/img4.png"></div>
+						<div><img src="assets/img/img5.png"></div>
+					</div>
+				</div>
 
 	<div class="section"></div>
 	
 	<h1 class="tlt" id="headline"> THANKS FOR VISITING!</h1>
+	
 
 </div>
+
+
 
 
 <script type="text/javascript" src="assets/scripts/shine.min.js"></script>
@@ -56,12 +71,10 @@
 	}
 	window.addEventListener('mousemove', handleMouseMove, false);
 </script>
-	
-	
+
+
 <script src="assets/scripts/hello.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"> </script>
-
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
 		sectionsColor: ['#FFFFFF', '#F2DBCD', '#24277B'],
@@ -69,7 +82,15 @@
 	});
 </script>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<script type="text/javascript">
+    $("#slideshow .slick").slick({
+    });
+
+  </script>
 
 </body>
 </html>
