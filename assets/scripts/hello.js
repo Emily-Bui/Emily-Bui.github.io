@@ -42,18 +42,16 @@ function hide_graphics(i) {
 }
 backpack1.onclick = function(){
 
-	let photos = document.getElementsByClassName("slick")
-	for (let i = 0; i < photos.length; i ++) {
-    	show_graphics(photos[i]); 
-	}
-	document.getElementById("slideshow").style.display = "block";
+	document.getElementById("popup3").style.display = "block";
+	
+	document.getElementById("slideshow").style.visibility = "visible";
 
 	let graphics = document.getElementsByClassName("graphics2")
 	for (let i = 0; i < graphics.length; i ++) {
     	hide_graphics(graphics[i]); 
 	}
 
-	document.getElementById("popup3").style.display = "block";
+	
 
 	
 }
@@ -82,13 +80,9 @@ let popup3 = document.getElementById("popup3")
 
 popup3.onclick = function(){
 	document.getElementById("popup3").style.display = "none";
-	document.getElementById("popup4").style.display = "none";
+	document.getElementById("slideshow").style.visibility = "hidden";
 
-	let photos = document.getElementsByClassName("slick")
-	for (let i = 0; i < photos.length; i ++) {
-    	hide_graphics(photos[i]); 
-	}
-
+	
 
 	let graphics = document.getElementsByClassName("graphics2")
 	for (let i = 0; i < graphics.length; i ++) {

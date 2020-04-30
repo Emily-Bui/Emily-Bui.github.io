@@ -5,10 +5,14 @@ body {
 }
 
 
-
+img {
+	max-width: 100%:
+	height: auto;
+	max-height: 100%;
+}
 
 .logo img {
-	max-width: 300px;
+	width: 300px;
 	height: auto;
 	position: absolute;
     top: 3%;
@@ -18,7 +22,7 @@ body {
 
 
 .backpack img {
-	max-width: 330px;
+	width: 330px;
 	height: auto;
 	position: absolute;
     top: 20%;
@@ -35,7 +39,7 @@ body {
 }
 
 .arrow img {
-	max-width: 450px;
+	width: 450px;
 	height: auto;
 	position: absolute;
     top: 22%;
@@ -63,6 +67,7 @@ p {
 	font-style: italic;
 	font-size: 52px;
 	color: white;
+	text-align: center;
 }
 
 #fp-nav ul li a span {
@@ -164,9 +169,9 @@ p {
 	max-width: 460px;
 	height: auto;
 	position: absolute;
-    top: 138%;
-    left: 34%;
-    display: none;
+    top: 136%;
+    left: 33.3%;
+  	visibility: hidden;
 }
 
 #slideshow img {
@@ -174,16 +179,11 @@ p {
 	height: auto;
 }
 
-.slider button{
-    display: none;
-}
+
 
 .hidden {
 	display: none;
 }
 
-.slick-prev {
-	display: none;
-}
 
 
