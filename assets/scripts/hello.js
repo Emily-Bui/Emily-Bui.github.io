@@ -31,6 +31,20 @@ airpod1.onclick = function(){
 	document.getElementById("popup2").style.display = "block";
 }
 
+let backpack1 = document.getElementById("backpack2");
+
+function hide_graphics(i) {
+	i.style.display = "none";
+}
+backpack1.onclick = function(){
+
+	let graphics = document.getElementsByClassName("graphics2")
+	for (let i = 0; i < graphics.length; i ++) {
+    	hide_graphics(graphics[i]); 
+	}
+
+	document.getElementById("popup3").style.display = "block";
+}
 
 
 
@@ -49,6 +63,23 @@ popup2.onclick = function(){
     	show_graphics(graphics[i]); 
 	}
 }
+
+
+function show_graphics(i) {
+	i.style.display = "block"
+}
+
+let popup3 = document.getElementById("popup3")
+
+popup3.onclick = function(){
+	document.getElementById("popup3").style.display = "none";
+
+	let graphics = document.getElementsByClassName("graphics2")
+	for (let i = 0; i < graphics.length; i ++) {
+    	show_graphics(graphics[i]); 
+	}
+}
+
 
 
 
