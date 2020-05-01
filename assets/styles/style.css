@@ -7,6 +7,7 @@ body {
 
 img {
 	width: 100%;
+	height: auto;
 }
 
 .section {
@@ -61,7 +62,7 @@ p {
 
 .tlt {
 	position: absolute;
-	top: 240%;
+	bottom: -187%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Poppins', sans-serif;
@@ -71,6 +72,17 @@ p {
 	color: white;
 	text-align: center;
 }
+
+
+.goodbye img{
+	width: 55%;
+	position: absolute;
+	bottom: -195%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
 
 #fp-nav ul li a span {
 	background: white !important;
