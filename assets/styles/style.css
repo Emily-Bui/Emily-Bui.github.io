@@ -97,6 +97,7 @@ p {
 } 
 
 .backpack2 img:hover {
+	cursor: pointer;
 	width: 28%;
 	height: auto;
 	position: fixed;
@@ -125,6 +126,7 @@ p {
 }
 
 .airpod img:hover {
+	cursor: pointer;
 	width: 9%;
 	height: auto;
 	position: fixed;
@@ -144,6 +146,7 @@ p {
 }
 
 .case img:hover {
+	cursor: pointer;
 	max-width: 21.3%;
 	height: auto;
 	position: fixed;
@@ -190,6 +193,7 @@ p {
 #slideshow img {
 	width: 100%;
 	height: auto;
+	cursor: pointer;
 }
 
 
