@@ -1,6 +1,6 @@
 
 body {
-	background: #F4EBE4;
+	background: #fffbfa;
 	margin: 0;
 }
 
@@ -9,28 +9,27 @@ img {
 	width: 100%;
 }
 
-#fullpage {
-
+.section {
+	width:100%;
+	position: fixed;
 }
 
+
 .logo img {
-	width: 20%;
+	width: 25%;
 	height: auto;
-	position: absolute;
-    top: 2.8%;
+	position: fixed;
+    bottom: 65%;
     left: 3.2%;
 } 
 
 
-
-
 .backpack img {
-	width: 22%;
+	width: 23%;
 	height: auto;
-	position: absolute;
-    top: 23%;
+	position: fixed;
+    bottom: 18%;
     left: 38.7%;
-    transform: translate(-50%, -50%);
     animation: bounce .5s ease-in 0s infinite alternate; 
 } 
 
@@ -44,17 +43,11 @@ img {
 .scroll img {
 	width: 6%;
 	height: auto;
-	position: absolute;
-    top: 90%;
-    left: 46.3%;
+	position: fixed;
+    bottom: 5%;
+    left: 47%;
 }
-.arrow img {
-	width: 33%;
-	height: auto;
-	position: absolute;
-    top: 22%;
-    left: 3.3%;
-}
+
 
 p {
 	position: absolute;
@@ -84,18 +77,18 @@ p {
 }
 
 .backpack2 img {
-	max-width: 28%;
+	width: 28%;
 	height: auto;
-	position: absolute;
-    top: 110%;
+	position: fixed;
+    bottom: -82%;
     left: 35%;
 } 
 
 .backpack2 img:hover {
-	max-width: 28%;
+	width: 28%;
 	height: auto;
-	position: absolute;
-    top: 110%;
+	position: fixed;
+    bottom: -82%;
     left: 35%;
 	animation: shake .8s infinite alternate;
 }
@@ -111,19 +104,19 @@ p {
 
 
 .airpod img {
-	max-width: 9%;
+	width: 9%;
 	height: auto;
-	position: absolute;
-    top: 170%;
+	position: fixed;
+    bottom: -88%;
     left: 34%;
 
 }
 
 .airpod img:hover {
-	max-width: 9%;
+	width: 9%;
 	height: auto;
-	position: absolute;
-    top: 170%;
+	position: fixed;
+    bottom: -88%;
     left: 34%;
     animation: shake .8s infinite alternate;
 
@@ -131,18 +124,18 @@ p {
 
 
 .case img {
-	max-width: 21.3%;
+	width: 21.3%;
 	height: auto;
-	position: absolute;
-    top: 166%;
+	position: fixed;
+    bottom: -94%;
     left: 52%;
 }
 
 .case img:hover {
 	max-width: 21.3%;
 	height: auto;
-	position: absolute;
-    top: 166%;
+	position: fixed;
+    bottom: -94%;
     left: 52%;
     animation: shake .8s infinite alternate;
 
@@ -150,40 +143,40 @@ p {
 
 
 #popup1 img {
-	max-width: 800px;
+	width: 800px;
 	height: auto;
-	position: absolute;
-    top: 113%;
+	position: fixed;
+    bottom: -85%;
     left: 22.5%;
 }
 
 #popup2 img {
-	max-width: 800px;
+	width: 800px;
 	height: auto;
-	position: absolute;
-    top: 113%;
+	position: fixed;
+    bottom: -85%;
     left: 22.5%;
 }
 
 #popup3 img {
-	max-width: 800px;
+	width: 800px;
 	height: auto;
-	position: absolute;
-    top: 113%;
+	position: fixed;
+    bottom: -85%;
     left: 22.5%;
 }
 
 #slideshow {
-	max-width: 490px;
+	width: 490px;
 	height: auto;
-	position: absolute;
-    top: 135%;
+	position: fixed;
+    bottom: -68%;
     left: 32.88%;
   	visibility: hidden;
 }
 
 #slideshow img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
@@ -192,6 +185,7 @@ p {
 .hidden {
 	display: none;
 }
+
 
 
 
