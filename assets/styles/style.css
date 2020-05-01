@@ -45,7 +45,7 @@ img {
 	height: auto;
 	position: fixed;
     bottom: 5%;
-    left: 47%;
+    left: 46.7%;
 }
 
 
@@ -143,35 +143,35 @@ p {
 
 
 #popup1 img {
-	width: 800px;
+	width: 50%;
 	height: auto;
 	position: fixed;
     bottom: -85%;
-    left: 22.5%;
+    left: 25%;
 }
 
 #popup2 img {
-	width: 800px;
+	width: 50%;
 	height: auto;
 	position: fixed;
     bottom: -85%;
-    left: 22.5%;
+    left: 25%;
 }
 
 #popup3 img {
-	width: 800px;
+	width: 50%;
 	height: auto;
 	position: fixed;
     bottom: -85%;
-    left: 22.5%;
+    left: 25%;
 }
 
 #slideshow {
-	width: 490px;
+	width: 30%;
 	height: auto;
 	position: fixed;
-    bottom: -68%;
-    left: 32.88%;
+    bottom: -71%;
+    left: 34.3%;
   	visibility: hidden;
 }
 
